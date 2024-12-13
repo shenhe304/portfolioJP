@@ -1,0 +1,99 @@
+@use "../global/import"as *;
+
+// fade-in-bottom
+.js-scrollUp{
+    transition: 2s ease-in-out;
+    transform: translateY(30px);
+    opacity: 0;
+}
+
+.js-scrollUp.on {
+transform: translateY(0);
+opacity: 1.0;
+}
+
+// fade-in-left
+.js-scrollLeft {
+    -webkit-transition: 2s ease-in-out;
+    -moz-transition: 2s ease-in-out;
+    -o-transition: 2s ease-in-out;
+    transition: 2s ease-in-out;
+    transform: translateX(-30px);
+    opacity: 0;
+    filter: alpha(opacity=0);
+    -moz-opacity: 0;
+}
+.js-scrollLeft.on {
+    opacity: 1.0;
+    filter: alpha(opacity=100);
+    -moz-opacity: 1.0;
+    transform: translateX(0);
+}
+
+@include sp{
+    .js-scrollLeft{
+        transform: translateX(-20px);
+    }
+}
+
+// fade-in-right
+.js-scrollRight {
+    -webkit-transition: 2s ease-in-out;
+    -moz-transition: 2s ease-in-out;
+    -o-transition: 2s ease-in-out;
+    transition: 2s ease-in-out;
+    transform: translateX(30px);
+    opacity: 0;
+    filter: alpha(opacity=0);
+    -moz-opacity: 0;
+}
+.js-scrollRight.on {
+    opacity: 1.0;
+    filter: alpha(opacity=100);
+    -moz-opacity: 1.0;
+    transform: translateX(0);
+}
+
+@include sp{
+    .js-scrollRight{
+        transform: translateX(20px);
+    }
+}
+
+// sway
+.js-scrollSway.on  {
+    animation: sway 3s ease-in-out forwards;
+}
+
+
+@keyframes sway {
+    from {
+        transform: translateX(0px) rotate(0deg);
+    }
+    to {
+        transform: translateX(200px) rotate(-45deg);
+    }
+}
+
+// fall
+.js-scrollFall.on  {
+    animation: fall 4s linear forwards;
+}
+
+@keyframes fall {
+    from {
+        transform: translate3d(0px, 0px, 0px) rotate(0deg);
+    }
+
+    25% {
+        transform: translate3d(-50px, 0px, 0px) rotate(-10deg);
+    }
+
+    75% {
+        transform: translate3d(50px, 0px, 0px) rotate(10deg);
+    }
+
+    to {
+        transform: translate3d(0px, 0px, 0px) rotate(0deg);
+    }
+}

@@ -1,0 +1,36 @@
+@use "../global/import"as *;
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+
+$colors: (
+    "main": #D10C0C,
+    "secondary": #042A2B,
+    "base":#E0E1DD,
+);
+
+body{
+    font-family: "Noto Sans JP", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.625;
+    letter-spacing: 5%;
+    background-color: map-get($colors, "base");
+    color: map-get($colors, "secondary");
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    color: map-get($colors, "secondary");
+}
+
+a:hover {
+    text-decoration: underline;
+    color: map-get($colors, "main");
+}
+
+a:active,
+a:focus {
+    text-decoration: none;
+}
+

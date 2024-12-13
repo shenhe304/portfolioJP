@@ -1,0 +1,35 @@
+@use "../../global/import"as *;
+
+
+
+.c-btn{
+    min-width: 180px;
+    padding: 48px 14px 24px;
+    color: #fff;
+    background-color: map-get($colors, "secondary");
+    border-radius: 50%;
+
+    &:hover{
+        opacity: 1;
+        background-color: map-get($colors, "main");
+    }
+
+    &--secondary{
+        color: map-get($colors, "secondary");
+        background-color: #fff;
+        border-color: map-get($colors, "secondary");
+    }
+}
+
+
+// SPのみサイズ変更
+@include sp{
+    min-width: 168px;
+    padding: 24px 10px 8px;
+
+    &--secondary{
+        color: map-get($colors, "secondary");
+        background-color: #fff;
+        border-color: map-get($colors, "secondary");
+    }
+}

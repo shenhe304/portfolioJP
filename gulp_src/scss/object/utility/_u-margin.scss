@@ -1,0 +1,104 @@
+@use "../../global/import"as *;
+
+.u-m0a{
+    margin: 0 auto;
+}
+.u-mla{
+    margin-left: auto;
+}
+.u-m0 {
+    margin: 0;
+}
+.u-mt0 {
+    margin-top: 0;
+}
+.u-mb0 {
+    margin-bottom: 0;
+}
+.u-ml0 {
+    margin-left: 0;
+}
+.u-mr0 {
+    margin-right: 0;
+}
+
+
+@for $i from 0 through 20 {
+    .u-m#{$i * 5} {
+        margin: 5px * $i;
+    }
+    .u-mt#{$i * 5} {
+        margin-top: 5px * $i;
+    }
+    .u-mb#{$i * 5} {
+        margin-bottom: 5px * $i;
+    }
+    .u-ml#{$i * 5} {
+        margin-left: 5px * $i;
+    }
+    .u-mr#{$i * 5} {
+        margin-right: 5px * $i;
+    }
+}
+
+@include pc{
+    @for $i from 0 through 20 {
+        .u-m#{$i * 5}-pc {
+            margin: 5px * $i;
+        }
+        .u-mt#{$i * 5}-pc {
+            margin-top: 5px * $i;
+        }
+        .u-mb#{$i * 5}-pc {
+            margin-bottom: 5px * $i;
+        }
+        .u-ml#{$i * 5}-pc {
+            margin-left: 5px * $i;
+        }
+        .u-mr#{$i * 5}-pc {
+            margin-right: 5px * $i;
+        }
+	}
+}
+
+@include tab{
+    @for $i from 0 through 20 {
+        .u-m#{$i * 5}-tab {
+            margin: 5px * $i;
+        }
+        .u-mt#{$i * 5}-tab {
+            margin-top: 5px * $i;
+        }
+        .u-mb#{$i * 5}-tab {
+            margin-bottom: 5px * $i;
+        }
+        .u-ml#{$i * 5}-tab {
+            margin-left: 5px * $i;
+        }
+        .u-mr#{$i * 5}-tab {
+            margin-right: 5px * $i;
+        }
+	}
+}
+
+@include sp{
+    @for $i from 0 through 20 {
+        .u-m#{$i * 5}-sp {
+            margin: 5px * $i;
+        }
+        .u-mt#{$i * 5}-sp {
+            margin-top: 5px * $i;
+        }
+        .u-mb#{$i * 5}-sp {
+            margin-bottom: 5px * $i;
+        }
+        .u-ml#{$i * 5}-sp {
+            margin-left: 5px * $i;
+        }
+        .u-mr#{$i * 5}-sp {
+            margin-right: 5px * $i;
+        }
+	}
+}
+
+

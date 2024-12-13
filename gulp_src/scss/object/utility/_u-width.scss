@@ -1,0 +1,37 @@
+@use "../../global/import"as *;
+
+.u-w100{
+    width: 100%;
+}
+
+@for $i from 0 through 20 {
+    .u-w#{$i * 5} {
+        width: 5% * $i;
+    }
+}
+
+@include pc{
+    @for $i from 0 through 20 {
+        .u-w#{$i * 5}-pc {
+            width: 5% * $i;
+        }
+	}
+}
+
+@include tab{
+    @for $i from 0 through 20 {
+        .u-w#{$i * 5}-tab {
+            width: 5% * $i;
+        }
+	}
+}
+
+@include sp{
+    @for $i from 0 through 20 {
+        .u-w#{$i * 5}-sp {
+            width: 5% * $i;
+        }
+	}
+}
+
+
