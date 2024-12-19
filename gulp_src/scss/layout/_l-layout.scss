@@ -1,0 +1,10 @@
+@use "../global/import"as *;
+
+
+@include pc{
+    .l-container{
+        width: 1280px;
+        margin: 0 auto;
+    }
+
+}

@@ -1,3 +1,5 @@
 @use "../../global/import"as *;
 
-@forward '_c-btn.scss';
+.u-flex{
+    display: flex;
+}

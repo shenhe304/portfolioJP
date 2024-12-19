@@ -1,0 +1,17 @@
+@use "../../global/import"as *;
+
+.p-mainVisual {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.p-mainVisual__h1{
+    margin-bottom: 12px;
+}
+.p-mainVisual__h2{
+    font-size: 16px;
+    font-weight: normal;
+}
+.p-mainVisual__name{
+    margin-bottom: 60px;
+}

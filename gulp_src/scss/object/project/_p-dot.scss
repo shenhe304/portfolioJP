@@ -1,0 +1,13 @@
+@use "../../global/import"as *;
+
+.p-dot {
+    display: flex;
+    gap: 32px;
+}
+
+.p-dot span {
+    width: 6px;
+    height: 6px;
+    background-color: map-get($colors, "main");
+    border-radius: 50%;
+}

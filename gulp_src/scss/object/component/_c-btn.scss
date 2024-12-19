@@ -1,13 +1,20 @@
 @use "../../global/import"as *;
 
-
-
 .c-btn{
     min-width: 180px;
-    padding: 48px 14px 24px;
+    padding: 14px 48px 24px;
     color: #fff;
+    text-align: center;
     background-color: map-get($colors, "secondary");
-    border-radius: 50%;
+    border-radius: 50px;
+    position: relative;
+
+    &::after{
+        position: absolute;
+        content: url(../../../../assets/img/icon/icon-next.svg);
+        width: 8px;
+        height: 12px;
+    }
 
     &:hover{
         opacity: 1;
@@ -18,18 +25,24 @@
         color: map-get($colors, "secondary");
         background-color: #fff;
         border-color: map-get($colors, "secondary");
+
+        &:hover{
+            color: #fff;
+        }
     }
 }
 
 
 // SPのみサイズ変更
 @include sp{
-    min-width: 168px;
-    padding: 24px 10px 8px;
-
-    &--secondary{
-        color: map-get($colors, "secondary");
-        background-color: #fff;
-        border-color: map-get($colors, "secondary");
+    .c-btn{
+        min-width: 168px;
+        padding: 10px 24px 8px;
+    
+        &--secondary{
+            color: map-get($colors, "secondary");
+            background-color: #fff;
+            border-color: map-get($colors, "secondary");
+        }
     }
 }

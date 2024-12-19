@@ -1,0 +1,6 @@
+@use "../../global/import"as *;
+
+.u-main{
+    color: map-get($colors, "main");
+}
+
