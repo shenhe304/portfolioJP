@@ -24,79 +24,79 @@
 
 
 @for $i from 0 through 20 {
-    .u-m#{$i * 5} {
-        margin: 5px * $i;
+    .u-m#{$i * 8} {
+        margin: 8px * $i;
     }
-    .u-mt#{$i * 5} {
-        margin-top: 5px * $i;
+    .u-mt#{$i * 8} {
+        margin-top: 8px * $i;
     }
-    .u-mb#{$i * 5} {
-        margin-bottom: 5px * $i;
+    .u-mb#{$i * 8} {
+        margin-bottom: 8px * $i;
     }
-    .u-ml#{$i * 5} {
-        margin-left: 5px * $i;
+    .u-ml#{$i * 8} {
+        margin-left: 8px * $i;
     }
-    .u-mr#{$i * 5} {
-        margin-right: 5px * $i;
+    .u-mr#{$i * 8} {
+        margin-right: 8px * $i;
     }
 }
 
 @include pc{
     @for $i from 0 through 20 {
-        .u-m#{$i * 5}-pc {
-            margin: 5px * $i;
+        .u-m#{$i * 8}-pc {
+            margin: 8px * $i;
         }
-        .u-mt#{$i * 5}-pc {
-            margin-top: 5px * $i;
+        .u-mt#{$i * 8}-pc {
+            margin-top: 8px * $i;
         }
-        .u-mb#{$i * 5}-pc {
-            margin-bottom: 5px * $i;
+        .u-mb#{$i * 8}-pc {
+            margin-bottom: 8px * $i;
         }
-        .u-ml#{$i * 5}-pc {
-            margin-left: 5px * $i;
+        .u-ml#{$i * 8}-pc {
+            margin-left: 8px * $i;
         }
-        .u-mr#{$i * 5}-pc {
-            margin-right: 5px * $i;
+        .u-mr#{$i * 8}-pc {
+            margin-right: 8px * $i;
         }
 	}
 }
 
 @include tab{
     @for $i from 0 through 20 {
-        .u-m#{$i * 5}-tab {
-            margin: 5px * $i;
+        .u-m#{$i * 8}-tab {
+            margin: 8px * $i;
         }
-        .u-mt#{$i * 5}-tab {
-            margin-top: 5px * $i;
+        .u-mt#{$i * 8}-tab {
+            margin-top: 8px * $i;
         }
-        .u-mb#{$i * 5}-tab {
-            margin-bottom: 5px * $i;
+        .u-mb#{$i * 8}-tab {
+            margin-bottom: 8px * $i;
         }
-        .u-ml#{$i * 5}-tab {
-            margin-left: 5px * $i;
+        .u-ml#{$i * 8}-tab {
+            margin-left: 8px * $i;
         }
-        .u-mr#{$i * 5}-tab {
-            margin-right: 5px * $i;
+        .u-mr#{$i * 8}-tab {
+            margin-right: 8px * $i;
         }
 	}
 }
 
 @include sp{
     @for $i from 0 through 20 {
-        .u-m#{$i * 5}-sp {
-            margin: 5px * $i;
+        .u-m#{$i * 8}-sp {
+            margin: 8px * $i;
         }
-        .u-mt#{$i * 5}-sp {
-            margin-top: 5px * $i;
+        .u-mt#{$i * 8}-sp {
+            margin-top: 8px * $i;
         }
-        .u-mb#{$i * 5}-sp {
-            margin-bottom: 5px * $i;
+        .u-mb#{$i * 8}-sp {
+            margin-bottom: 8px * $i;
         }
-        .u-ml#{$i * 5}-sp {
-            margin-left: 5px * $i;
+        .u-ml#{$i * 8}-sp {
+            margin-left: 8px * $i;
         }
-        .u-mr#{$i * 5}-sp {
-            margin-right: 5px * $i;
+        .u-mr#{$i * 8}-sp {
+            margin-right: 8px * $i;
         }
 	}
 }

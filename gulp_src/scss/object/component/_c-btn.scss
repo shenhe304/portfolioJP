@@ -5,7 +5,7 @@
     padding: 14px 48px 24px;
     color: #fff;
     text-align: center;
-    background-color: map-get($colors, "secondary");
+    background-color: var(--secondary-color);
     border-radius: 50px;
     position: relative;
 
@@ -18,13 +18,13 @@
 
     &:hover{
         opacity: 1;
-        background-color: map-get($colors, "main");
+        background-color: var(--primary-color);
     }
 
     &--secondary{
-        color: map-get($colors, "secondary");
+        color: var(--secondary-color);
         background-color: #fff;
-        border-color: map-get($colors, "secondary");
+        border-color: var(--secondary-color);
 
         &:hover{
             color: #fff;
@@ -40,9 +40,9 @@
         padding: 10px 24px 8px;
     
         &--secondary{
-            color: map-get($colors, "secondary");
+            color: var(--secondary-color);
             background-color: #fff;
-            border-color: map-get($colors, "secondary");
+            border-color: var(--secondary-color);
         }
     }
 }

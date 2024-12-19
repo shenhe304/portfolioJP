@@ -1,26 +1,47 @@
 @use "../global/import"as *;
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Noto+Sans+JP&display=swap');
+
+:root {
+    /* family */
+    --font-noto: 'Noto Sans JP', sans-serif;
+    --font-futura: 'Futura', sans-serif;
+
+    /* size */
+    --font-size-small: 14px;
+    --font-size-main: 16px;
+    --font-size-medium: 22px;
+    --font-size-large: 24px;
+
+    /* line-heignt */
+    --line-height-small: 22px;
+    --line-height-large: 26px;
+
+    /* color */
+    --primary-color: #D10C0C;
+    --secondary-color: #042A2B;
+    --base-color: #EDEEEE
+}
 
 body{
-    font-family: "Noto Sans JP", serif;
+    font-family: var(--font-noto);
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-    line-height: 1.625;
-    letter-spacing: 10%;
-    background-color: map-get($colors, "base");
-    color: map-get($colors, "secondary");
+    line-height: var(--line-height-large);
+    letter-spacing: 0.8px;
+    background-color: var(--base-color);
+    color: var(--secondary-color);
 }
 
 a {
     display: block;
     text-decoration: none;
-    color: map-get($colors, "secondary");
+    color: var(--secondary-color);
 }
 
 a:hover {
     text-decoration: underline;
-    color: map-get($colors, "main");
+    color: var(--primary-color);
 }
 
 a:active,

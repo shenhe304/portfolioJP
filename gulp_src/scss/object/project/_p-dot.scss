@@ -3,11 +3,12 @@
 .p-dot {
     display: flex;
     gap: 32px;
+    margin-bottom: 80px;
 }
 
 .p-dot span {
     width: 6px;
     height: 6px;
-    background-color: map-get($colors, "main");
+    background-color: var(--primary-color);
     border-radius: 50%;
 }

@@ -1,0 +1,19 @@
+@use "../../global/import"as *;
+
+.p-thinking{
+    &__contents{
+        display: flex;
+        gap: 0 64px;
+    }
+    
+    &__iconBg{
+        width: 182px;
+        height: 182px;
+        background-color: var(--secondary-color) 10%;
+        border-radius: 50%;
+    }
+
+    &__textBox{
+        width: 302px;
+    }
+}

@@ -4,14 +4,25 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    height: 100vh;
+
+    &__h1{
+        margin-bottom: 12px;
+        font-size: 48px;
+    }
+
+    &__h2{
+        margin-bottom: 64px;
+        font-size: var(--font-size-main);
+        font-weight: normal;
+    }
+
+    &__name{
+        margin-bottom: 60px;
+    }
+
+    &__image{
+        width: 305px;
+    }
 }
-.p-mainVisual__h1{
-    margin-bottom: 12px;
-}
-.p-mainVisual__h2{
-    font-size: 16px;
-    font-weight: normal;
-}
-.p-mainVisual__name{
-    margin-bottom: 60px;
-}
+

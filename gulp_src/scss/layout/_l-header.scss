@@ -1,7 +1,11 @@
 @use "../global/import"as *;
 
-@include pc{
-    .l-logo{
-        width: 30%;
+
+.l-header{
+    height: 64px;
+    padding: 16px auto;
+
+    &__logo{
+        width: 10%;
     }
 }
