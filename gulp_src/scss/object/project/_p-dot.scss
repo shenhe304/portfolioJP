@@ -1,14 +1,30 @@
 @use "../../global/import"as *;
 
 .p-dot {
-    display: flex;
-    gap: 32px;
-    margin-bottom: 80px;
-}
+    &__container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 32px;
+    }
 
-.p-dot span {
-    width: 6px;
-    height: 6px;
-    background-color: var(--primary-color);
-    border-radius: 50%;
+    &__dot{
+        width: 6px;
+        height: 6px;
+        background-color: red;
+        border-radius: 50%;
+    }
+
+    &__wtext{
+        &::after{
+            content: '';
+            display: inline-block;
+            vertical-align: middle;
+            margin-left: 4px;
+            width: 6px;
+            height: 6px;
+            background-color: red;
+            border-radius: 50%;
+        }
+    }
 }

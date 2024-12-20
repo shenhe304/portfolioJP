@@ -2,9 +2,23 @@
 
 
 @include pc{
+    section{
+        margin-bottom: 132px;
+    }
+
     .l-container{
         width: 1280px;
         margin: 0 auto;
     }
+}
 
+@include tab{
+    section{
+        margin-bottom: 132px;
+    }
+
+    .l-container{
+        width: 1280px;
+        margin: 0 auto;
+    }
 }
