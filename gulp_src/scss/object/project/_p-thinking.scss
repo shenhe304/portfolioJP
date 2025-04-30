@@ -9,6 +9,10 @@
     gap: 64px;
     margin-top: 60px;
     align-items: center;
+
+    &--riverse{
+        flex-direction: row-reverse;
+    }
 }
 
 .p-thinking__iconBg {
