@@ -2,9 +2,26 @@
 
 
 .l_footer {
-    background-color: var(--secondary-color);
-    padding: 40px 0;
+    border-top: var( --secondary-color);
+    padding: 32px 0 40px;
     margin-top: 80px;
-    color: #fff;
     text-align: center;
+
+    &__wrapper{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__contents{
+        gap: 24px 0;
+    }
+
+    &__logo{
+        width: 124px;
+    }
+
+    &__link{
+        display: flex;
+        gap: 16px;
+    }
 }
