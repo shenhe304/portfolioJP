@@ -1,35 +1,31 @@
 @use "../../global/import"as *;
 
-.c-btn{
+.c-btn {
     min-width: 180px;
-    padding: 14px 48px 24px;
+    padding: 14px 48px;
     color: #fff;
     text-align: center;
     background-color: var(--secondary-color);
     border-radius: 50px;
     position: relative;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
 
-    &::after{
-        position: absolute;
-        content: url(../../../../assets/img/icon/icon-next.svg);
-        width: 8px;
-        height: 12px;
-    }
+.c-btn:hover {
+    opacity: 1;
+    background-color: var(--primary-color);
+}
 
-    &:hover{
-        opacity: 1;
-        background-color: var(--primary-color);
-    }
+.c-btn--secondary {
+    color: var(--secondary-color);
+    background-color: #fff;
+    border: 1px solid var(--secondary-color);
+}
 
-    &--secondary{
-        color: var(--secondary-color);
-        background-color: #fff;
-        border-color: var(--secondary-color);
-
-        &:hover{
-            color: #fff;
-        }
-    }
+.c-btn--secondary:hover {
+    color: #fff;
+    background-color: var(--primary-color);
 }
 
 

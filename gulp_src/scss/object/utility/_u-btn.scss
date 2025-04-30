@@ -1,7 +1,13 @@
 @use "../../global/import"as *;
 
-.u-btn{
+.u-btn {
     display: flex;
     align-items: center;
-    gap: 0 24px;
+    gap: 24px;
+}
+
+@include sp{
+    .u-btn {
+        justify-content: center;
+    }
 }

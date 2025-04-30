@@ -1,0 +1,10 @@
+@use "../global/import"as *;
+
+
+.l_footer {
+    background-color: var(--secondary-color);
+    padding: 40px 0;
+    margin-top: 80px;
+    color: #fff;
+    text-align: center;
+}

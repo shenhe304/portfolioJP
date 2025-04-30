@@ -1,11 +1,13 @@
 @use "../../global/import"as *;
 
-.c-lv2{
+.c-lv2 {
     font-size: var(--font-size-large);
-    line-height: var(line-height-large);
+    line-height: var(--line-height-large);
+    margin-bottom: 20px;
 }
 
-.c-lv3{
+.c-lv3 {
     font-size: var(--font-size-medium);
-    line-height: var(line-height-large);
+    line-height: var(--line-height-large);
+    margin: 15px 0 10px;
 }

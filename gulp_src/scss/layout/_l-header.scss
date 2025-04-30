@@ -1,11 +1,18 @@
 @use "../global/import"as *;
 
 
-.l-header{
-    height: 64px;
-    padding: 16px auto;
-
-    &__logo{
-        width: 10%;
-    }
+.l-header {
+height: 64px;
+padding: 16px 0;
+position: fixed;
+width: 100%;
+top: 0;
+z-index: 100;
+background-color: var(--base-color);
 }
+    
+.l-header__logo {
+width: 10%;
+min-width: 100px;
+}
+    

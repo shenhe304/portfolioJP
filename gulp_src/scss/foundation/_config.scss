@@ -19,13 +19,13 @@
     /* color */
     --primary-color: #D10C0C;
     --secondary-color: #042A2B;
-    --base-color: #EDEEEE
+    --base-color: #EDEEEE;
 
     /* color-rgb */
     --secondary-color-rgb: 4, 42, 43;
 }
 
-body{
+body {
     font-family: var(--font-noto);
     font-optical-sizing: auto;
     font-weight: 400;
@@ -34,6 +34,8 @@ body{
     letter-spacing: 0.8px;
     background-color: var(--base-color);
     color: var(--secondary-color);
+    margin: 0;
+    padding: 0;
 }
 
 a {
@@ -47,8 +49,14 @@ a:hover {
     color: var(--primary-color);
 }
 
-a:active,
-a:focus {
-    text-decoration: none;
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
 }
 
+ul, ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}

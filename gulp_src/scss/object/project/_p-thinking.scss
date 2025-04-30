@@ -1,19 +1,50 @@
 @use "../../global/import"as *;
 
-.p-thinking{
-    &__contents{
-        display: flex;
-        gap: 0 64px;
-    }
-    
-    &__iconBg{
-        width: 182px;
-        height: 182px;
-        background-color: var(--secondary-color) 10%;
-        border-radius: 50%;
-    }
+.p-thinking {
+    margin-bottom: 100px;
+}
 
-    &__textBox{
-        width: 302px;
+.p-thinking__contents {
+    display: flex;
+    gap: 64px;
+    margin-top: 60px;
+    align-items: center;
+}
+
+.p-thinking__iconBg {
+    width: 182px;
+    height: 182px;
+    background-color: rgba(var(--secondary-color-rgb), 0.1);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.p-thinking__icon {
+    width: 60%;
+}
+
+.p-thinking__textBox {
+    width: 302px;
+}
+
+.p-thinking__label {
+    color: var(--primary-color);
+    font-size: var(--font-size-small);
+    display: block;
+    margin-bottom: 5px;
+}
+
+.p-thinking__text {
+    margin-top: 10px;
+    font-size: var(--font-size-main);
+}
+
+@include sp{
+    .p-thinking__contents {
+        flex-direction: column;
+        text-align: center;
+        gap: 30px;
     }
 }
