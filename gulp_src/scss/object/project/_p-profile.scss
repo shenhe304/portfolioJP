@@ -1,6 +1,7 @@
 @use "../../global/import"as *;
 
 .p-profile {
+    max-width: 800px;
     display: flex;
     align-items: center;
     gap: 30px;
@@ -12,6 +13,11 @@
     height: 120px;
     border-radius: 50%;
     overflow: hidden;
+}
+
+.p-profile__sns{
+    display: flex;
+    gap: 8px 0;
 }
 
 .p-profile__text {
