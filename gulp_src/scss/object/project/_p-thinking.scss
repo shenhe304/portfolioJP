@@ -5,11 +5,12 @@
 
     &__contents{
         display: flex;
+        align-items: center;
+        justify-content: center;
         gap: 64px;
         margin-top: 60px;
-        align-items: center;
-    
-        &--riverse{
+
+        &--reverse{
             flex-direction: row-reverse;
         }
     }
