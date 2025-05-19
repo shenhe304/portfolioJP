@@ -1,5 +1,26 @@
-@use "../../global/import"as *;
+@use "../../global/import" as *;
 
-.p-project{
-    
+.p-project {
+    &__thumb {
+        margin-top: 64px;
+    }
+
+    &__h1 {
+        text-align: center;
+    }
+
+    &__list {
+        dl {
+            margin: 0;
+            padding: 0;
+
+            dt {
+                font-weight: bold;
+
+                &:first-child {
+                    margin-top: 0;
+                }
+            }
+        }
+    }
 }
