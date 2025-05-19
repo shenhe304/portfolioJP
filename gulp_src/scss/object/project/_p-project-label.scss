@@ -1,0 +1,14 @@
+@use "../../global/import" as *;
+
+.p-project-label{
+    font-family: var(--font-hind);
+    color: var(--primary-color);
+    font-size: 12px;
+
+    &__wrapper{
+        width: 1140px;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+}
+
