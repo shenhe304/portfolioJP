@@ -1,0 +1,18 @@
+@use "../../global/import" as *;
+
+.p-project-article{
+    margin-bottom: 24px;
+
+    &:last-child{
+        margin-bottom: 0;
+    }
+
+    &__title{
+        color: var(--primary-color);
+        font-weight: bold;
+    }
+
+    &__subtitle{
+        font-weight: bold;
+    }
+}
