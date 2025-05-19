@@ -21,11 +21,10 @@
         width: 100%;
         aspect-ratio: 16 / 12;
         object-fit: contain;
-        padding: 8px;
     }
 
     &__h3{
-        margin: 15px 10px 8px;
+        margin: 0 10px 8px;
         color: var(--primary-color);
         font-size: var(--font-size-medium);
     }
