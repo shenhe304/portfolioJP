@@ -1,0 +1,19 @@
+@use "../../global/import" as *;
+
+.p-project-flex{
+    display: flex;
+    gap: 0 34px;
+
+    &--reverse{
+        flex-direction: row-reverse;
+    }
+
+    &__image{
+        width: 60%;
+    }
+
+    &__explanation{
+        width: 40%;
+    }
+
+}

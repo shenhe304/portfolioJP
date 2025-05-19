@@ -1,26 +1,67 @@
 @use "../../global/import" as *;
 
 .p-project {
+    &__label{
+        color: var(--primary-color);
+        font-size: 12px;
+    }
+
     &__thumb {
         margin-top: 64px;
     }
 
     &__h1 {
+        margin-bottom: 32px;
         text-align: center;
+        font-size: 2.4em;
+    }
+
+    &__intro{
+        max-width: 640px;
+        margin: 0 auto;
+    }
+
+    &__summary{
+        margin-bottom: 32px;
     }
 
     &__list {
-        dl {
-            margin: 0;
-            padding: 0;
+        dt{
+            font-weight: 700;
+        }
 
-            dt {
-                font-weight: bold;
+        dd{
+            margin-bottom: 16px;
 
-                &:first-child {
-                    margin-top: 0;
-                }
+            &:last-child{
+                margin-bottom: 0;
             }
         }
     }
+
+    &__ul{
+        margin-top: 24px;
+    }
+    &__li{
+        position: relative;
+        padding-left: 8px;
+        list-style: none;
+
+        &::before{
+            content: '';
+            position: absolute;
+            top: 0.6em; 
+            left: 0;
+            width: 4px;
+            height: 4px;
+            background-color: var(--secondary-color);
+            border-radius: 50%;     
+        }
+
+        &--white{
+            background-color: white;
+        }
+    }
+
+
 }

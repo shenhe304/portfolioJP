@@ -1,0 +1,12 @@
+@use "../../global/import" as *;
+
+.p-project-box{
+    border: 1px solid var(--secondary-color);
+    border-radius: 4px;
+    padding: 24px;
+
+    &__title{
+        margin-bottom: 8px;
+        color: var(--primary-color);
+    }
+}

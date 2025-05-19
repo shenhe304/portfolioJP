@@ -32,7 +32,6 @@ body {
     font-style: normal;
     line-height: var(--line-height-large);
     letter-spacing: 0.8px;
-    background-color: var(--base-color);
     color: var(--secondary-color);
     margin: 0;
     padding: 0;
@@ -59,4 +58,12 @@ ul, ol {
     list-style: none;
     padding: 0;
     margin: 0;
+}
+
+p{
+    margin-bottom: 16px;
+
+    &:last-child{
+        margin-bottom: 0;
+    }
 }
