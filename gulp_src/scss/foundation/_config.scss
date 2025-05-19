@@ -67,3 +67,7 @@ p{
 img:has(+ p) {
     margin-bottom: 16px;
 }
+
+a:has(+ p) {
+    margin-bottom: 16px;
+}

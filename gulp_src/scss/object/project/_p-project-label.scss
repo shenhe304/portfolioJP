@@ -3,7 +3,7 @@
 .p-project-label{
     font-family: var(--font-hind);
     color: var(--primary-color);
-    font-size: 12px;
+    font-size: var(--font-size-small);
 
     &__wrapper{
         width: 1140px;

@@ -3,10 +3,16 @@
 .p-project {
     &__bg{
         width: 100%;
+        padding: 40px 0;
 
         &--primary{
             background-color: var(--primary-color);
+            color: #fff;
         }
+    }
+
+    &__btn{
+        text-align: center;
     }
 
     &__thumb {
@@ -65,6 +71,4 @@
             background-color: white;
         }
     }
-
-
 }

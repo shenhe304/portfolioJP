@@ -16,19 +16,29 @@
         display: flex;
         flex-direction: column;
         align-items: baseline;
-        gap: 32px 0;
+        gap: 16px 0;
     }
 
     &__text{
+        margin-bottom: 0;
         text-align: left;
+        font-size: var(--font-size-small);
     }
 
     &__logo{
-        width: 124px;
+        width: 40px;
     }
 
     &__link{
         display: flex;
         gap: 16px;
+        font-size: var(--font-size-small);
+
+        a {
+        display: inline-block;
+        text-decoration: none;
+        padding: 4px 0; 
+        line-height: 1;
+        }
     }
 }
