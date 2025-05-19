@@ -62,8 +62,8 @@ ul, ol {
 
 p{
     margin-bottom: 16px;
+}
 
-    &:last-child{
-        margin-bottom: 0;
-    }
+img:has(+ p) {
+    margin-bottom: 16px;
 }
