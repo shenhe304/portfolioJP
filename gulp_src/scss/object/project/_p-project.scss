@@ -9,6 +9,11 @@
             background-color: var(--primary-color);
             color: #fff;
         }
+
+        &--black{
+            background-color: var(--secondary-color);
+            color: #fff;
+        }
     }
 
     &__btn{
@@ -49,7 +54,7 @@
     }
 
     &__ul{
-        margin-top: 24px;
+        margin: 32px 0;
     }
     &__li{
         position: relative;
@@ -68,7 +73,20 @@
         }
 
         &--white{
-            background-color: white;
+            color: white;
+
+            &::before{
+                background-color: #fff;
+            }
+        }
+    }
+
+    &__3column{
+        display: flex;
+        gap: 0 16px;
+
+        &--item{
+            width: calc(100% / 3);
         }
     }
 }

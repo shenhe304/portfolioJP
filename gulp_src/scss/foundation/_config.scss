@@ -61,13 +61,13 @@ ul, ol {
 }
 
 p{
-    margin-bottom: 16px;
+    margin-bottom: 32px;
 }
 
 img:has(+ p) {
-    margin-bottom: 16px;
+    margin-bottom: 32px;
 }
 
 a:has(+ p) {
-    margin-bottom: 16px;
+    margin-bottom: 32px;
 }
