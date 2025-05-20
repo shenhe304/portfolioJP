@@ -42,3 +42,17 @@
         }
     }
 }
+
+
+@include sp{
+    .l_footer{
+        &__wrapper {
+        flex-direction: column-reverse;
+        gap: 24px 0;
+        }
+
+        &__contents{
+            gap: 8px 0;
+        }
+    }
+}

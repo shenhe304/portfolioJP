@@ -16,6 +16,12 @@
         }
     }
 
+    &__reference{
+        text-align: right;
+        font-size: 14px;
+        text-decoration: underline;
+    }
+
     &__btn{
         text-align: center;
     }
@@ -88,5 +94,17 @@
         &--item{
             width: calc(100% / 3);
         }
+    }
+}
+
+@include sp{
+    .p-project{
+        &__3column{
+            flex-direction: column;
+
+            &--item{
+                width: 100%;
+            }
+        }  
     }
 }

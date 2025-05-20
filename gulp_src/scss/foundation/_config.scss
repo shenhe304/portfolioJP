@@ -71,3 +71,9 @@ img:has(+ p) {
 a:has(+ p) {
     margin-bottom: 32px;
 }
+
+@include sp{
+    a:has(+ p) {
+    margin-bottom: 16px;
+    }
+}
