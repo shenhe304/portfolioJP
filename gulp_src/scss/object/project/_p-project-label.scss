@@ -18,3 +18,22 @@
     }
 }
 
+@include tab{
+    .p-project-label{
+        &__wrapper{
+            max-width: 85%;
+            margin: 0 auto;
+        }
+    }
+}
+
+@include sp{
+    .p-project-label{
+        &__wrapper{
+            max-width: 100%;
+            margin: 0 auto;
+        }
+    }
+}
+
+
