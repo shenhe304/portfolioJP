@@ -17,9 +17,9 @@
     }
 
     &__reference{
+        margin-bottom: 0;
         text-align: right;
-        font-size: 14px;
-        text-decoration: underline;
+        font-size: var(--font-size-small);
     }
 
     &__btn{

@@ -17,3 +17,21 @@
     }
 
 }
+
+@include sp{
+    .p-project-flex{
+        flex-direction: column;
+
+        &--reverse{
+            flex-direction: column;
+        }
+
+        &__image{
+            width: 100%;
+        }
+
+        &__explanation{
+            width: 100%;
+        }
+    }
+}

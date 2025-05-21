@@ -68,7 +68,14 @@ a:has(+ p) {
 }
 
 @include sp{
+    p{
+    margin-bottom: 24px;
+    }
+
+    img:has(+ p) {
+        margin-bottom: 24px;
+    }
     a:has(+ p) {
-    margin-bottom: 16px;
+    margin-bottom: 24px;
     }
 }
