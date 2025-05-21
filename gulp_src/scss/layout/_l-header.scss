@@ -10,8 +10,7 @@
     z-index: 100;
 
     &__logo{
-        width: 3%;
-        max-width: 30px;
+        width: 100%;
     }
 }
 
@@ -19,7 +18,7 @@
 @include sp{
     .l-header {
         &__logo{
-            max-width: 30px;
+            width: 100%;
         }
     }
 }
