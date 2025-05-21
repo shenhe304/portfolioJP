@@ -5,6 +5,10 @@
     &__list{
         display: flex;
         gap: 0 32px;
+    }
+
+    &__card{
+        width: calc(100% / 2 - 32px);
         border: 1px var(--secondary-color) solid;
         border-radius: 8px;
     }
