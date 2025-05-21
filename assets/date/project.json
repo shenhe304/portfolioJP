@@ -2,8 +2,8 @@
     {
         "id": 1,
         "title": "Project One",
-        "url": "../../works/pj-rikonlp.html",
-        "thumbnail": "../../assets/img/works/work-rikonlp.jpg",
+        "url": "../works/pj-rikonlp.html",
+        "thumbnail": "../assets/img/works/work-rikonlp.jpg",
         "related": [1, 3]
     },
     {
