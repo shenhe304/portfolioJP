@@ -35,3 +35,21 @@
     }
 }
 
+@include tab{
+    .p-works{
+        gap: 24px;
+    }
+}
+
+
+@include sp{
+    .p-works {
+        gap: 24px;
+
+        &__contents{
+            width: 100%;
+        }
+    }
+    
+}
+

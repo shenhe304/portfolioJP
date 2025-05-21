@@ -38,5 +38,10 @@
     .p-profile {
         flex-direction: column;
         text-align: center;
+        gap: 16px;
+
+        &__text{
+            width: 100%;
+        }
     }
 }
