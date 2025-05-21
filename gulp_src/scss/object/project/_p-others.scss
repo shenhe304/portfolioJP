@@ -1,11 +1,10 @@
 @use "../../global/import"as *;
 
 .p-others{
-    display: flex;
-    gap: 32px 0;
 
     &__list{
-        padding: 16px;
+        display: flex;
+        gap: 0 32px;
         border: 1px var(--secondary-color) solid;
         border-radius: 8px;
     }
@@ -13,11 +12,21 @@
     &__thumbnail{
         width: 100%;
     }
+
+    &__title{
+        padding: 24px 8px;
+        margin-bottom: 0;
+        font-size: var(--font-size-main);
+        font-weight: 400;
+        color: var(--secondary-color-rgb) /0.5;
+    }
 }
 
 @include sp{
 .p-others{
-    flex-direction: column;
+    &__list{
+        flex-direction: column;
+    }
 }
 
 }
