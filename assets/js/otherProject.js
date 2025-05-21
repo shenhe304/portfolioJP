@@ -1,20 +1,21 @@
-const currentPage = location.pathname.split('/').pop(); // 例: project1.html
+const currentPage = location.pathname.split('/').pop();
 
-fetch('../assets/date/project.json') 
+fetch('/assets/data/project.json')
   .then(res => res.json())
   .then(projects => {
     const currentProject = projects.find(p => p.url.endsWith(currentPage));
     if (!currentProject) return;
 
     const relatedProjects = projects.filter(p => currentProject.related.includes(p.id));
-    const container = document.getElementById('other-projects');
+    const container = document.querySelector('.p-others__list');
 
     relatedProjects.forEach(project => {
       const div = document.createElement('div');
+      div.classList.add('p-others__card');
       div.innerHTML = `
-        <a href="${project.url}" style="text-align:center; text-decoration:none; color:inherit;">
-          <img src="${project.thumbnail}" alt="${project.title}" style="width:150px; border-radius: 8px;" />
-          <p style="margin-top:0.5rem;">${project.title}</p>
+        <a href="${project.url}" class="p-others__link">
+          <img src="${project.thumbnail}" alt="${project.title}" class="p-others__thumbnail" />
+          <p class="p-others__project-title">${project.title}</p>
         </a>
       `;
       container.appendChild(div);

@@ -3,4 +3,14 @@
 .p-others{
     display: flex;
     gap: 32px 0;
+
+    &__list{
+        padding: 16px;
+        border: 1px var(--secondary-color) solid;
+        border-radius: 8px;
+    }
+
+    &__thumbnail{
+        width: 100%;
+    }
 }
