@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "title": "Project One",
+        "title": "Google広告用LP",
         "url": "../works/pj-rikonlp.html",
         "thumbnail": "../assets/img/works/work-rikonlp.jpg",
         "related": [1, 3]
