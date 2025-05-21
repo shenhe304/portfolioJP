@@ -11,19 +11,29 @@
         width: calc(100% / 2 - 32px);
         border: 1px var(--secondary-color) solid;
         border-radius: 4px;
+
+        &:hover{
+            transform: translateY(-4px);
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+        }
     }
 
     &__thumbnail{
         width: 100%;
+        margin-bottom: 0;
         border-radius: 4px;
     }
 
     &__title{
-        padding: 24px 8px;
-        margin-bottom: 0;
         font-size: var(--font-size-main);
         font-weight: 400;
-        color: var(--secondary-color-rgb) /0.5;
+        margin-bottom: 16px;
+    }
+
+    &__project-title{
+        padding: 24px 8px;
+        margin-bottom: 0;
     }
 }
 
