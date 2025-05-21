@@ -14,3 +14,10 @@
         width: 100%;
     }
 }
+
+@include sp{
+.p-others{
+    flex-direction: column;
+}
+
+}

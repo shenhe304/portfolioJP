@@ -1,6 +1,6 @@
 const currentPage = location.pathname.split('/').pop();
 
-fetch('/assets/data/project.json')
+fetch('../assets/data/project.json')
   .then(res => res.json())
   .then(projects => {
     const currentProject = projects.find(p => p.url.endsWith(currentPage));
