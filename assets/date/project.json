@@ -1,0 +1,24 @@
+[
+    {
+        "id": 1,
+        "title": "Project One",
+        "url": "../../works/pj-rikonlp.html",
+        "thumbnail": "../../assets/img/works/work-rikonlp.jpg",
+        "related": [2, 3]
+    },
+    {
+        "id": 2,
+        "title": "Project Two",
+        "url": "/projects/project2.html",
+        "thumbnail": "/images/project2.jpg",
+        "related": [1, 4]
+    },
+    {
+        "id": 3,
+        "title": "Project Three",
+        "url": "/projects/project3.html",
+        "thumbnail": "/images/project3.jpg",
+        "related": [1, 2]
+    }
+
+]
