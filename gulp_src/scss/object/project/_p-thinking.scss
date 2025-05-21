@@ -34,10 +34,11 @@
     }
 
     &__label{
-        color: var(--primary-color);
-        font-size: var(--font-size-small);
         display: block;
         margin-bottom: 5px;
+        color: var(--primary-color);
+        font-size: var(--font-size-small);
+        font-family: var(--font-hind);
     }
 
     &__text{
