@@ -3,37 +3,35 @@
 .p-mainVisual {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    // justify-content: space-between;
     min-height: 100vh;
     padding-top: 64px;
+
+    &__text{
+        // width: 50%;
+        width: 100%;
+        text-align: center;       
+    }
+
+    &__h1{
+        margin-bottom: 12px;
+        font-size: 48px;
+        font-weight: 700;
+        font-family: var(--font-hind);        
+    }
+
+    &__name{
+        margin-bottom: 60px;
+        font-size: var(--font-size-main);
+    }
 }
 
-.p-mainVisual__text {
-    width: 50%;
-}
 
-.p-mainVisual__h1 {
-    margin-bottom: 12px;
-    font-size: 48px;
-    font-weight: 700;
-    font-family: var(--font-hind);
-}
 
-.p-mainVisual__name {
-    margin-bottom: 60px;
-    font-size: var(--font-size-main);
-}
-
-.p-mainVisual__h2 {
-    margin-bottom: 64px;
-    font-size: var(--font-size-main);
-    font-weight: normal;
-    line-height: 1.8;
-}
-
-.p-mainVisual__image {
-    width: 45%;
-}
+// .p-mainVisual__image {
+//     width: 45%;
+// }
 
 
 @include sp{
