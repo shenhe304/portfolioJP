@@ -2,8 +2,7 @@
 
 
 .l-header {
-    height: 64px;
-    padding: 16px 0;
+    padding: 40px 0 8px;
     position: fixed;
     width: 100%;
     top: 0;
@@ -12,11 +11,12 @@
 
     &__wrapper{
         display: flex;
+        align-items: center;
         justify-content: space-between;
     }
 
     &__logo{
-        width: 3vh;
+        width: 2.2vh;
     }
 }
 
