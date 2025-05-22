@@ -44,28 +44,14 @@
         text-align: center;
         padding-top: 80px;
         min-height: auto;
+
+        &__h1{
+            font-size: 36px;
+        }
+
+        &__name{
+            margin-bottom: 30px;
+        }
     }
 
-    .p-mainVisual__text, .p-mainVisual__image {
-        width: 100%;
-    }
-
-    .p-mainVisual__h1 {
-        font-size: 36px;
-    }
-
-    .p-mainVisual__name {
-        margin-bottom: 30px;
-    }
-
-    .p-mainVisual__h2 {
-        margin-bottom: 40px;
-    }
-
-    .p-mainVisual__image {
-        margin-top: 40px;
-        max-width: 80%;
-        margin-left: auto;
-        margin-right: auto;
-    }
 }
