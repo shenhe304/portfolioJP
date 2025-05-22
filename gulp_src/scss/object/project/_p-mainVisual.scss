@@ -4,12 +4,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    // justify-content: space-between;
     min-height: 100vh;
     padding-top: 64px;
+    background-image: url(../../assets/img/common/bg.png);
+    background-repeat: repeat;
+    background-position: center center;
 
     &__text{
-        // width: 50%;
         width: 100%;
         text-align: center;       
     }
@@ -31,11 +32,6 @@
     }
 }
 
-
-
-// .p-mainVisual__image {
-//     width: 45%;
-// }
 
 
 @include sp{
