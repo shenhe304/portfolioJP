@@ -65,24 +65,23 @@
     {
         "id": 10,
         "title": "インスタグラムフィード",
-        "url": "../works/pj-travel.html",
-        "thumbnail": "../assets/img/works/work-ig-travel.jpg",
+        "url": "../works/pj-fuwari.html",
+        "thumbnail": "../assets/img/works/work-ig-fuwari.jpg",
         "related": [9, 4]
     },
     {
         "id": 11,
         "title": "インスタグラム求人広告",
-        "url": "../works/pj-travel.html",
-        "thumbnail": "../assets/img/works/work-ig-travel.jpg",
+        "url": "../works/pj-fuwa.html",
+        "thumbnail": "../assets/img/works/work-ig-fuwa.jpg",
         "related": [12, 2]
     },
     {
         "id": 12,
         "title": "インスタグラム求人広告",
-        "url": "../works/pj-travel.html",
-        "thumbnail": "../assets/img/works/work-ig-travel.jpg",
+        "url": "../works/pj-solana.html",
+        "thumbnail": "../assets/img/works/work-ig-solana.jpg",
         "related": [10, 5]
     }
-
 
 ]
