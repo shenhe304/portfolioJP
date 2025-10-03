@@ -4,14 +4,14 @@
         "title": "Google広告用LP",
         "url": "../works/pj-rikonlp.html",
         "thumbnail": "../assets/img/works/work-rikonlp.jpg",
-        "related": [4, 3]
+        "related": [13, 3]
     },
     {
         "id": 2,
         "title": "管理画面UIデザイン",
         "url": "../works/pj-system.html",
         "thumbnail": "../assets/img/works/work-system.jpg",
-        "related": [1, 4]
+        "related": [1, 13]
     },
     {
         "id": 3,
@@ -25,22 +25,22 @@
         "title": "モーダルデザイン",
         "url": "../works/pj-modal.html",
         "thumbnail": "../assets/img/works/work-modal.jpg",
-        "related": [1, 2]
+        "related": [1, 13]
     },
     {
         "id": 5,
         "title": "英語版リデザイン",
         "url": "../works/pj-wp-en.html",
         "thumbnail": "../assets/img/works/work-wp-en.jpg",
-        "related": [1, 6]
+        "related": [1, 13]
     },
-    {
-        "id": 6,
-        "title": "英語版リデザイン",
-        "url": "../works/pj-rikon-en.html",
-        "thumbnail": "../assets/img/works/work-rikon-en.jpg",
-        "related": [3, 9]
-    },
+    // {
+    //     "id": 6,
+    //     "title": "英語版リデザイン",
+    //     "url": "../works/pj-rikon-en.html",
+    //     "thumbnail": "../assets/img/works/work-rikon-en.jpg",
+    //     "related": [3, 9]
+    // },
     {
         "id": 7,
         "title": "WordPress Webサイト",
@@ -60,14 +60,14 @@
         "title": "インスタグラム広告",
         "url": "../works/pj-travel.html",
         "thumbnail": "../assets/img/works/work-ig-travel.jpg",
-        "related": [11, 6]
+        "related": [11, 13]
     },
     {
         "id": 10,
         "title": "インスタグラムフィード",
         "url": "../works/pj-fuwari.html",
         "thumbnail": "../assets/img/works/work-ig-fuwari.jpg",
-        "related": [9, 4]
+        "related": [13, 4]
     },
     {
         "id": 11,
