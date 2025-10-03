@@ -34,7 +34,7 @@
         margin-bottom: 32px;
         text-align: center;
         font-size: 2.4em;
-        white-space: nowrap;
+        overflow-wrap: break-word;
     }
 
     &__intro{
