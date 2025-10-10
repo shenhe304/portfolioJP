@@ -34,13 +34,6 @@
         "thumbnail": "../assets/img/works/work-wp-en.jpg",
         "related": [1, 13]
     },
-    // {
-    //     "id": 6,
-    //     "title": "英語版リデザイン",
-    //     "url": "../works/pj-rikon-en.html",
-    //     "thumbnail": "../assets/img/works/work-rikon-en.jpg",
-    //     "related": [3, 9]
-    // },
     {
         "id": 7,
         "title": "WordPress Webサイト",
